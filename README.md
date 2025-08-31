@@ -11,19 +11,15 @@
 
 ## 📊 Strategy Overview
 
-| Strategy | Type | Accuracy Target | Key Features | Risk Level |
-|----------|------|----------------|--------------|------------|
-| [Strategy 1](#-strategy-1-smart-market-structure) | Smart Market Structure | 75%+ | Order Blocks, FVG, Multi-timeframe | Medium |
-| [Strategy 2](#-strategy-2-fair-value-gap-momentum) | FVG Momentum | 70%+ | Fair Value Gaps, RSI, EMA Trend | Medium |
-| [Strategy 3](#-strategy-3-liquidity-zone-hunter) | Liquidity Zones | 80%+ | Support/Resistance, ADX Filter | Low-Medium |
-| [Strategy 4](#-strategy-4-advanced-pattern-recognition) | Pattern Recognition | 85%+ | Chart Patterns, Multi-indicator | Medium-High |
-| [Strategy 5](#-strategy-5-simple-ema-breakout) | EMA Breakout | 65%+ | Simple EMA crossover | Low |
-| [Strategy 6](#-strategy-6-high-frequency-ai-trading) | AI High-Frequency | 90%+ | Machine Learning, Bayesian Models | High |
-| [Strategy 7](#-strategy-7-dual-symbol-hedge) | Hedge Trading | 70%+ | Multi-symbol hedging | Medium |
-| [Strategy 8](#-strategy-8-pending-order-breakout) | Pending Orders | 75%+ | Breakout capture | Medium |
-| [Strategy 9](#-strategy-9-scalping-reversal) | Scalping | 80%+ | Quick reversals, 2.6 pip targets | High |
-| [Strategy 10](#-strategy-10-reverse-scalping) | Reverse Scalping | 80%+ | Opposite direction scalping | High |
-| [Strategy 11](#-strategy-11-cascade-trading) | Cascade System | 75%+ | Progressive lot sizing | Medium-High |
+| Strategy | Type | Key Features |
+|----------|------|--------------|
+| [Strategy 1](#-strategy-1-smart-market-structure) | Smart Market Structure | Order Blocks, FVG, Multi-timeframe |
+| [Strategy 2](#-strategy-2-fair-value-gap-momentum) | FVG Momentum | Fair Value Gaps, RSI, EMA Trend |
+| [Strategy 3](#-strategy-3-liquidity-zone-hunter) | Liquidity Zones | Support/Resistance, ADX Filter |
+| [Strategy 4](#-strategy-4-advanced-pattern-recognition) | Pattern Recognition | Chart Patterns, Multi-indicator |
+| [Strategy 5](#-strategy-5-simple-ema-breakout) | EMA Breakout | Simple EMA crossover |
+| [Strategy 6](#-strategy-6-high-frequency-ai-trading) | AI High-Frequency | Machine Learning, Bayesian Models |
+| [Strategy 7](#-strategy-7-dual-symbol-hedge) | Hedge Trading | Multi-symbol hedging |
 
 ---
 
@@ -113,52 +109,6 @@
 - **Risk Management**: Reversal detection and counter-hedging
 - **Unique Features**: Cross-pair correlation trading
 - **Target Symbols**: Multiple forex pairs
-
-### 📋 Strategy 8: Pending Order Breakout
-**Breakout Capture with Pending Orders**
-
-- **Core Logic**: Places pending orders 150 points above/below current price
-- **Entry Method**: 
-  - Buy Stop: 150 points above current price
-  - Sell Stop: 150 points below current price
-- **Risk Management**: 100 point stop loss, 200 point target
-- **Unique Features**: Automatic pending order management
-- **Cycle**: Recreates orders after each completion
-
-### ⚡ Strategy 9: Scalping Reversal
-**High-Speed Scalping with Reversal Logic**
-
-- **Core Logic**: Quick scalping with reversal hedging
-- **Entry System**:
-  - Initial Buy: 0.01 lot, 2.6 pip target
-  - Reversal Sell: 0.02 lot when price drops 1 pip
-  - Progressive lot sizing: 1.33x multiplier
-- **Risk Management**: Tight 2.6 pip targets
-- **Unique Features**: Automatic reversal detection, cycle-based trading
-
-### 🔄 Strategy 10: Reverse Scalping
-**Opposite Direction Scalping System**
-
-- **Core Logic**: Starts with Sell orders, reverses to Buy
-- **Entry System**:
-  - Initial Sell: 0.05 lot, 4.6 pip stop loss
-  - Reversal Buy: When conditions trigger
-  - Progressive sizing: 1.33x multiplier
-- **Risk Management**: 4.6 pip stop loss system
-- **Unique Features**: Reverse hedging approach
-
-### 🎢 Strategy 11: Cascade Trading
-**Progressive Lot Sizing System**
-
-- **Core Logic**: Cascade system with progressive position building
-- **Entry System**:
-  - Initial Buy: 0.1 lot
-  - Reverse Sell: 0.16 lot when price drops 1 pip
-  - Target: 4.5 pip profit on each leg
-- **Risk Management**: Cycle-based profit targets
-- **Unique Features**: Dynamic cascade with termination conditions
-
----
 
 ## 🛠️ Technical Requirements
 
